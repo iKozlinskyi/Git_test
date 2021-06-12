@@ -170,39 +170,3 @@ img.zoom {
 .text-dark-pink {
   color: darkviolet;
 }
-
-/* Кастомні стилі для кнопки лайків */
-
-.btn-counter { margin-right: 39px; }
-.btn-counter:after,
-.btn-counter:hover:after { text-shadow: none; }
-.btn-counter:after {
-  border-radius: 3px;
-  border: 1px solid #d3d3d3;
-  background-color: #eee;
-  padding: 0 8px;
-  color: #777;
-  content: attr(data-count);
-  left: 100%;
-  margin-left: 8px;
-  margin-right: -13px;
-  position: absolute;
-  top: 5px;
-}
-.btn-counter:before {
-  transform: rotate(45deg);
-  filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476, sizingMethod='auto expand');
-
-  background-color: #eee;
-  border: 1px solid #d3d3d3;
-  border-right: 0;
-  border-top: 0;
-  content: '';
-  position: absolute;
-  right: -13px;
-  top: 15px;
-  height: 6px;
-  width: 6px;
-  z-index: 1;
-  zoom: 1;
-}
